@@ -1,0 +1,66 @@
+
+*{  
+    margin:auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+section{
+    width: 700px;
+    padding: 30px;
+    border: 5px solid darkgoldenrod;
+    box-shadow: 5px 5px 8px burlywood;
+    border-radius: 20px;
+    background-color:darkgrey;
+}
+h1{
+    padding-bottom: 6px;
+    text-shadow: 2px 2px grey;
+    color: black;
+    font-size: 30px;
+}
+.main-user{
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+}
+.jc{
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.jc input{
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid black;
+    padding: 0 10px;
+    width: 95%;
+    height: 40px;
+
+}
+.gen-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+.gender{
+    color: black;
+    margin: 15px;
+}
+.Register input{ 
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: black;
+    width: 600px;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: block;
+}
